@@ -1,19 +1,20 @@
 body{
+    background: black;
+}
+.gallery-container{
     margin: 0;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-top: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: black;
     overflow: hidden;
 }
 
 .glide__slide img{
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 500px;
 }
 
 .glide__slide{
@@ -68,11 +69,11 @@ body{
 .glide__arrow--left{
     position: absolute;
     top: 140px;
-    left: 25px;
+    left: 150px;
 }
 
 .glide__arrow--right{
     position: absolute;
     top: 140px;
-    right: 27px;
+    right: 150px;
 }
